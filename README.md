@@ -30,25 +30,25 @@ python task_app.py add "Buy groceries"
 python task_app.py add "Buy groceries" --desc  "tomatos and carrots"
 
 # Update task title
-task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --title "Buy groceries and cook dinner"
+python task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --title "Buy groceries and cook dinner"
 
 # Update task description
-task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --desc ""
+python task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --desc ""
 
 # Delete task
-task_app.py delete 01290252-5431-430b-b9fb-d834ec52046f
+python task_app.py delete 01290252-5431-430b-b9fb-d834ec52046f
 
 # Marking a task as in progress, done, pending
-python task_app.py set-status [task id] [status option]
-python task_app.py set-status 2da2d176-c1ef-4a86-9ce9-3e9f7022f13b done
+- python task_app.py set-status [task id] [status option]
+- python task_app.py set-status 2da2d176-c1ef-4a86-9ce9-3e9f7022f13b done
 
 # List all tasks
 python task_app.py list
 
 # Listing tasks by status
-- task_app.py list-done
-- task_app.py list-pending
-- task_app.py list-progress
+- python task_app.py list-done
+- python task_app.py list-pending
+- python task_app.py list-progress
 
 
 
