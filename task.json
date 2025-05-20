@@ -1,0 +1,20 @@
+[
+  {
+    "id": "679d3f0d-0409-43a6-b44e-938d470c0c12",
+    "title": "Comprar Mangos",
+    "description": "",
+    "status": "pending"
+  },
+  {
+    "id": "fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec",
+    "title": "Cook dinner",
+    "description": "Pasta with wine",
+    "status": "done"
+  },
+  {
+    "id": "463816c0-aa3a-4951-a9c1-675311492c8b",
+    "title": "Doctors appoitment",
+    "description": "6:30 pm",
+    "status": "in_progress"
+  }
+]
