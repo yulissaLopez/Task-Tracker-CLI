@@ -46,9 +46,9 @@ python task_app.py set-status 2da2d176-c1ef-4a86-9ce9-3e9f7022f13b done
 python task_app.py list
 
 # Listing tasks by status
-task_app.py list-done
-task_app.py list-pending
-task_app.py list-progress
+- task_app.py list-done
+- task_app.py list-pending
+- task_app.py list-progress
 
 
 
