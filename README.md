@@ -29,9 +29,13 @@ python task_app.py add "Buy groceries"
 # Add a task with description
 python task_app.py add "Buy groceries" --desc  "tomatos and carrots"
 
-# Update and delete task
+# Update task title
 task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --title "Buy groceries and cook dinner"
-task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --title "Buy groceries and cook dinner" --desc ""
+
+# Update task description
+task_app.py update fcd66b47-8dd0-4e7d-bc0d-bf6c187b40ec --desc ""
+
+# Delete task
 task_app.py delete 01290252-5431-430b-b9fb-d834ec52046f
 
 # Marking a task as in progress, done, pending
